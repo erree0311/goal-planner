@@ -1,0 +1,23 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2026-07-18T11:27:21.188-04:00  INFO 9232 --- [goal-planner] [           main] com.goalplanner.GoalPlannerApplication   : Starting GoalPlannerApplication v1.0.0 using Java 21.0.11 with PID 9232 (C:\Users\rayce\OneDrive\Desktop\ia\goal-planner\target\goal-planner-1.0.0.jar started by rayce in C:\Users\rayce\OneDrive\Desktop\ia\goal-planner)
+2026-07-18T11:27:21.195-04:00  INFO 9232 --- [goal-planner] [           main] com.goalplanner.GoalPlannerApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-07-18T11:27:22.437-04:00  INFO 9232 --- [goal-planner] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-07-18T11:27:22.457-04:00  INFO 9232 --- [goal-planner] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-18T11:27:22.457-04:00  INFO 9232 --- [goal-planner] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2026-07-18T11:27:22.496-04:00  INFO 9232 --- [goal-planner] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-18T11:27:22.496-04:00  INFO 9232 --- [goal-planner] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1228 ms
+2026-07-18T11:27:22.869-04:00  INFO 9232 --- [goal-planner] [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2026-07-18T11:27:23.253-04:00  INFO 9232 --- [goal-planner] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-07-18T11:27:23.376-04:00  INFO 9232 --- [goal-planner] [           main] com.goalplanner.GoalPlannerApplication   : Started GoalPlannerApplication in 2.673 seconds (process running for 3.536)
+2026-07-18T11:27:49.827-04:00  INFO 9232 --- [goal-planner] [nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-18T11:27:49.827-04:00  INFO 9232 --- [goal-planner] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-18T11:27:49.827-04:00  INFO 9232 --- [goal-planner] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
