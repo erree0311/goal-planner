@@ -5,7 +5,6 @@ import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.messages.ContentBlock;
 import com.anthropic.models.messages.Message;
 import com.anthropic.models.messages.MessageCreateParams;
-import com.anthropic.models.messages.Model;
 import com.anthropic.models.messages.OutputConfig;
 import com.anthropic.models.messages.ThinkingConfigAdaptive;
 import com.anthropic.models.messages.WebSearchTool20260209;
@@ -52,7 +51,7 @@ public class ClaudeService {
 
     public GoalPlan planGoal(String goal) {
         MessageCreateParams params = MessageCreateParams.builder()
-            .model(Model.of("claude-opus-4-8"))
+            .model("claude-opus-5-5")
             .maxTokens(8000L)
             .system(SYSTEM_PROMPT)
             .thinking(ThinkingConfigAdaptive.builder().build())

@@ -27,7 +27,10 @@ Aplicación web que genera un plan de acción paso a paso para cualquier meta pe
 
 ```bash
 # Configura tu API key como variable de entorno
+# Linux / macOS:
 export ANTHROPIC_API_KEY=tu-api-key
+# Windows (se guarda permanentemente; abre una terminal nueva después):
+setx ANTHROPIC_API_KEY "tu-api-key"
 
 # Compila y corre
 mvn clean package
